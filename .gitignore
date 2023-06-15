@@ -1,0 +1,16 @@
+Debug/
+Release/
+*.exe
+*.dll
+*.ilk
+*.pdb
+*.obj
+*.lib
+*.exp
+
+# VS 配置文件
+.vs/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
