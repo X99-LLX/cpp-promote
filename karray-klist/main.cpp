@@ -1,8 +1,7 @@
 #include "iostream"
 #include "KArray.h"
 
-
-int main()
+void ArrayTest() 
 {
 	std::cout << "Hello KArray and KList" << std::endl;
 
@@ -24,7 +23,17 @@ int main()
 
 	a.clear();
 	a.print();
+}
 
+void ListTest()
+{
+
+}
+
+int main()
+{
+	ArrayTest();
+	ListTest();
 
 	return 0;
 }

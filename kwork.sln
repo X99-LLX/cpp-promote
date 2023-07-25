@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kstring", "kstring\kstring.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "karray-klist", "karray-klist\karray-klist.vcxproj", "{97146D70-F473-4E3E-A3AC-3A9D83136BB4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kringbuffer", "kringbuffer\kringbuffer.vcxproj", "{9FEE49A7-08EC-464D-83A3-115A76203920}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{97146D70-F473-4E3E-A3AC-3A9D83136BB4}.Release|x64.Build.0 = Release|x64
 		{97146D70-F473-4E3E-A3AC-3A9D83136BB4}.Release|x86.ActiveCfg = Release|Win32
 		{97146D70-F473-4E3E-A3AC-3A9D83136BB4}.Release|x86.Build.0 = Release|Win32
+		{9FEE49A7-08EC-464D-83A3-115A76203920}.Debug|x64.ActiveCfg = Debug|x64
+		{9FEE49A7-08EC-464D-83A3-115A76203920}.Debug|x64.Build.0 = Debug|x64
+		{9FEE49A7-08EC-464D-83A3-115A76203920}.Debug|x86.ActiveCfg = Debug|Win32
+		{9FEE49A7-08EC-464D-83A3-115A76203920}.Debug|x86.Build.0 = Debug|Win32
+		{9FEE49A7-08EC-464D-83A3-115A76203920}.Release|x64.ActiveCfg = Release|x64
+		{9FEE49A7-08EC-464D-83A3-115A76203920}.Release|x64.Build.0 = Release|x64
+		{9FEE49A7-08EC-464D-83A3-115A76203920}.Release|x86.ActiveCfg = Release|Win32
+		{9FEE49A7-08EC-464D-83A3-115A76203920}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
