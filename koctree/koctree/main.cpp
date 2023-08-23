@@ -1,12 +1,13 @@
 #include "iostream"
 
 
-int main() {
+int main() 
+{
 	std::cout << "Hello KOctree!" << std::endl;
-	int a = 2;
+	int a = 1;
 	int b = 4;
-	b |= 2;
+	auto c = 3 & 4;
 
-	std::cout << b << std::endl;
+	std::cout << c << std::endl;
 	return 0;
 }

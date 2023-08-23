@@ -5,6 +5,7 @@ static const int MAX_POINTS_NUM = 4;
 
 struct Point {
     float x, y, z;
+    Point() {}
     Point(float _x, float _y, float _z) : x(_x), y(_y), z(_z) {}
 };
 
@@ -22,7 +23,6 @@ private:
     float halfDimension;
 
     kOctree* children[8];
-    Point* data[MAX_POINTS_NUM];
-
+    std::vector<Point*> data;
 };
 
